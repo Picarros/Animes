@@ -1,5 +1,6 @@
 {
 	"name": "animes",
+	"homepage": "https://picarros.github.io/Animes",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
