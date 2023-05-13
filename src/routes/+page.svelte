@@ -1,5 +1,6 @@
 <script>
     export const prerender = true;
+    export const trailingSlash = 'always';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
