@@ -12,9 +12,13 @@ const config = {
             precompress: false,
             strict: true
         }),
-		paths: {
+        paths: {
             base: dev ? '' : '/Animes'
         },
+        prerender: {
+            default: true,
+        },
+        trailingSlash: 'always',
 	}
 };
 
