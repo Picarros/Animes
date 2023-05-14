@@ -1,7 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
 
-const dev = process.argv.includes('dev');
-
 const config = {
 	kit: {
 		adapter: adapter({
@@ -12,8 +10,8 @@ const config = {
             strict: true
         }),
 		paths: {
-            base: dev ? '' : process.env.BASE_PATH,
-        }
+            base: '/Animes'
+        },
 	}
 };
 
